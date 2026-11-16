@@ -6,27 +6,27 @@ taxonomy:
 media_order: 'membershippro-translation.png,translate-category.png,translate-field.png,translate-message-item.png,translate-plan.png'
 ---
 
-**Membership Pro** support multilingual out of the box, and I am proud to say that it is implemented in a better way than Joomla core. Basically, in Joomla core, for each item (for example, each article), you will have to setup different records, each record for one language
+**Membership Pro** supports multilingual sites. In Joomla core, you create a separate record for each language, for example when translating an article.
 
-However, in Membership Pro, you will only have to create one record, then translate to different languages in Translation tab in add/edit record screen.
+In Membership Pro, create one record and add its translations in the Translation tab when editing the record.
 
-To setup Membership Pro on a multilingual website, you will need to do the translation on a different places below:
+The sections below explain where to translate each part of Membership Pro for a multilingual site.
 
 ## Translate language items
 
-To that, go to **Membership Pro -> Translation**, translate the language items used in the extension to all languages used on your site
+Go to **Membership Pro -> Translation** and translate the extension's language items for each language on your site.
 
 ![membershippro-translation](membershippro-translation.png "membershippro-translation")
 
 ## Translate categories
 
-If you use categories in your system, you need to translate categories. On Categories Management screen, click on a category to edit. Look at **Translation** tab, translate the category to all other languages (beside default language) used on your site
+If you use categories, open the Categories Management screen and select a category to edit. On the **Translation** tab, translate the category into each language apart from the default language.
 
 ![Translate Categories](translate-category.png)
 
 ## Translate plans
 
-On Subscription Plans Management screen, click on a plan to edit. Look at **Translation** tab, translate the plan to all other languages (beside default language) used on your site.
+On the Subscription Plans Management screen, select a plan to edit. On the **Translation** tab, translate the plan into each language apart from the default language.
 
 ![Translate Plans](translate-plan.png)
 
@@ -37,8 +37,8 @@ On Custom Fields Management screen, click on a plan to edit. Look at **Translati
 ![Translate custom fields](translate-field.png)
 
 ## Translate Emails & Messages
-The final part you have to translate is **Emails & Messages**. Access to **Membership Pro -> Emails & Messages**, click on each message to edit, look at **Translation** tab, translate the message to all other languages (beside default language) used on your site.
+To translate **Emails & Messages**, go to **Membership Pro -> Emails & Messages** and open each message. On the **Translation** tab, translate the message into each language apart from the default language.
 
 ![Translate Emails & Messages](translate-message-item.png)
 
->>>>>> Sometime, you might see an SQL error when your site is a multilingual website because the database tables lack some require fields to support multilingual. If that's the case, please access to **Tools => Fix Database Schema**. After that, the error should be gone.
+>>>>>> On a multilingual site, an SQL error can occur if the database tables are missing fields required for translations. If this happens, run **Tools => Fix Database Schema**.

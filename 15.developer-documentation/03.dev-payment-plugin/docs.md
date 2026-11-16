@@ -5,7 +5,7 @@ taxonomy:
         - docs
 ---
 
-Membership Pro supports multiple payment gateways. Each payment gateway is implemented as a payment plugin in extension. If you want to use a payment gateway which is not supported by the extension, you will need to develop a payment plugin to work with that payment gateway.
+Membership Pro supports multiple payment gateways. Each gateway is implemented as a payment plugin. To use another gateway, develop a payment plugin for it.
 
 Payment plugins can be devided into two types
 

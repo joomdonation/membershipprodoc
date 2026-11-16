@@ -3,7 +3,7 @@ title: 'Limit Subscriptions'
 media_order: limit-subscriptions-plugin.png
 ---
 
-This plugin allows you to limit number of subscriptions which a subscription plan can accept. For example, if you have a subscription plan which only want to except 50 subscriptions, you can use this plugin. After number of the subscriptions for the plan reach the limit, the plan will be unpublished automatically by the system and users won't be able to subscribe for that plugin anymore
+Use this plugin to set the maximum number of subscriptions a plan can accept, such as 50 subscriptions. When the plan reaches its limit, Membership Pro automatically unpublishes it, preventing further sign-ups.
 
 To use that plugin:
 

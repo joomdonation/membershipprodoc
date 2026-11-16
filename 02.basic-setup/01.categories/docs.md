@@ -9,20 +9,20 @@ process:
 media_order: 'categories.png,new-category.png,category-messages.png'
 ---
 
-**Membership Pro** allows you to organize your subscription plans cross infinite categories and subcategories (nested categories). 
+You can organize subscription plans in **Membership Pro** using as many categories and levels of subcategories as you need.
 
-However, please note that **categories is completely optional and in most cases, you won't have to setup categories**. You will only have to create categories if your site has many subscritpion plans and need to categorize them. Otherwise, simply ignore this step.
+Categories are optional. Create them if you have many plans and need to organize them.
 
-To access to categories management page, there are 3 different ways:
+You can open the categories management page in three ways.
 
-1. Access to **Membership Pro -> Categoires**
-2. Access to Membership Pro Dashboard, then click on Categories icon
-3. On any pages in Membership Pro, access to **Setup => Categories**
+1. Go to **Membership Pro -> Categoires**.
+2. Open the Membership Pro Dashboard and click the Categories icon.
+3. From any Membership Pro page, go to **Setup => Categories**.
 
 ![Categories](categories.png)
 
 ## Add new category
-Press **New** button in the toolbar to create new category. A form will be displayed to allow you to enter information of the category:
+Click the **New** button in the toolbar to open the form for creating a category.
 
 ### General Information
 
@@ -39,15 +39,15 @@ Press **New** button in the toolbar to create new category. A form will be displ
 </tr>
 <tr>
 <td><strong>Alias</strong></td>
-<td>Alias will be used to generate the URL link to the category (and plans belong to that category). If you unsure what to enter, simply leaves it empty and the system will generate the alias based on the name of category.</td>
+<td>Membership Pro uses the alias to build links to the category and its plans. If you leave it blank, Membership Pro generates one from the category name.</td>
 </tr>
 <tr>
 <td><strong>Parent</strong></td>
-<td>Select parent of this category. Set it to <strong>Select Category</strong> and it will become top level category.</td>
+<td>Select a parent category. Choose <strong>Select Category</strong> to make this a top-level category.</td>
 </tr>
 <tr>
 <td><strong>Exclusive Plans</strong></td>
-<td>If set to Yes, each user can only has one active subscription of one plan from this category. So if someone has subscribed for one plan from this category, he can only subscribe to other plan in same category after current subscription expired.</td>
+<td>If set to Yes, each user can have only one active subscription in this category. They can subscribe to another plan in the category after their current subscription expires.</td>
 </tr>
 <tr>
 <td><strong>Grouping Plans</strong></td>
@@ -55,20 +55,20 @@ Press **New** button in the toolbar to create new category. A form will be displ
 </tr>
 <tr>
 <td><strong> Access</strong></td>
-<td>Choose the access level which you want to be able to to access to this category (usually Public). By choosing an access level, only users has this access level can access/see the category.</td>
+<td>Select the access level for this category, usually Public. Only users with that access level can see the category.</td>
 </tr>
 <tr>
 <td><strong>Description</strong></td>
-<td>Description of the category. Category description will be used to display on categories list page.</td>
+<td>The description appears on the categories list page.</td>
 </tr>
 </tbody>
 </table>
 
 ### Emails & Messages
-**Membership Pro** allows you to configure Emails & Messages for each category. The messages you entered here will override the global Emails & Messages (but has lower priority that the messages inside the plan). Basically, when Membership Pro want to use certain message:
+In **Membership Pro**, category-specific Emails & Messages override the global settings. A message configured for a plan takes priority over both. Membership Pro looks for the message in this order.
 
-- It check the plan, if the message is entered inside the plan, it will be used
-- If not, it check the message in the category, if it is entered there, it will be used
-- Otherwise, it will used the message entered in global Emails & Messages
+- If the message is configured for the plan, use that message.
+- Otherwise, use the message configured for the category if one is available.
+- Otherwise, use the global Emails & Messages setting.
 
 ![category-messages](category-messages.png "category-messages")

@@ -5,7 +5,7 @@ taxonomy:
         - docs
 ---
 
-Membership Pro allows you to develop plugins to extend it's features. Infact, it has many plugins come with it by defualt which you can see in the foldder **plugins/osmembership** on your site.
+Membership Pro allows you to develop plugins to extend its features. In fact, it has many plugins come with it by default which you can see in the folder **plugins/osmembership** on your site.
 
 Membership Pro supports the following events trigger which you can write plugin to handle to add more features to the extension:
 
@@ -49,11 +49,11 @@ public function onAfterStoreSubscription($row)
 
 + $row->id : ID of subscription record
 + $row->pkan_id: ID subscribed plan
-+ $row->user_id : ID of user who subscribed for the event
++ $row->user_id : ID of user who signed up for the event
 + $row->first_name: First Name of subscriber
 + $row->last_name: Last Name of subscriber
 + $row->email: Email of subscriber
-+ $row->payment_method: The payment method subscriber uses to make payment
++ $row->payment_method: The payment method subscriber uses to make a payment
 + $row->transaction_id: Transaction ID of payment for the subscription.
 
 ## onMembershipActive
@@ -66,7 +66,7 @@ public function onMembershipActive($row)
 }
 ```
 
-- **$row**: The table object (instance of **OSMembershipTableSubscriber** class) stores information of the subscription record. From $row object, you can access to any fields from **osmembership_subscribers** table. You can see explanation from **onAfterStoreSubscription**  above to see how to access to the necessary information from your plugin.
+- **$row**: The table object (instance of **OSMembershipTableSubscriber** class) stores information of the subscription record. From $row object, you can access to any fields from **osmembership_subscribers** table. You can see explanation from **onAfterStoreSubscription**  above to see how to access the necessary information from your plugin.
 
 ## onMembershipExpire
 
@@ -77,7 +77,7 @@ public function onMembershipExpire($row)
 	
 }
 ```
-- **$row**: The table object (instance of **OSMembershipTableSubscriber** class) stores information of the subscription record. From $row object, you can access to any fields from **osmembership_subscribers** table. You can see explanation from **onAfterStoreSubscription**  above to see how to access to the necessary information from your plugin.
+- **$row**: The table object (instance of **OSMembershipTableSubscriber** class) stores information of the subscription record. From $row object, you can access to any fields from **osmembership_subscribers** table. You can see explanation from **onAfterStoreSubscription**  above to see how to access the necessary information from your plugin.
 
 ## Get Subscription Information
 

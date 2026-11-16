@@ -6,7 +6,7 @@ media_order: task-offline-recurring-invoice.png
 ## When you need to use this scheduled task
 This scheduled task can be used if you:
 - Have recurring subscription plans on your site.
-- You allow users to use offline payment method to subscribe for these recurring subscription plans.
+- You allow users to use offline payment method to sign up for these recurring subscription plans.
 
 ## How does it work
 Each time the scheduled task runs, it will find recurring subscription records use offline which will be expired in the next 10 days (Number of days can be configured in plugin parameter) and:
@@ -16,9 +16,9 @@ Each time the scheduled task runs, it will find recurring subscription records u
 
 ## Create and configure the scheduled task
 
-1. Go to **System -> Plugins**, make sure **Task - Membership Pro** plugin is enabled.
-2. Go to **System -> Scheduled Tasks**, press New button in the toolbar to create a new scheduled task for **Membership Pro - Offline Recurring Invoice** task type.
-3. Setup all required parameters, save it.
+1. Go to **System -> Plugins** and make sure the **Task - Membership Pro** plugin is enabled.
+2. Go to **System -> Scheduled Tasks** and click New in the toolbar. Select the **Membership Pro - Offline Recurring Invoice** task type.
+3. Configure the required parameters and save the task.
 
 ![task-offline-recurring-invoice](task-offline-recurring-invoice.png "task-offline-recurring-invoice")
 

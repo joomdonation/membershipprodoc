@@ -6,6 +6,6 @@ taxonomy:
 published: true
 ---
 
-This plugin allows indexing subscription plans in Membership Pro and make it searchable via Joomla Smart Search. So if you want to make your subscription plans to be searchable via Joomla smart search, go to System -> Plugins, find and enable **Smart Search - Membership Pro**
+This plugin indexes Membership Pro subscription plans so visitors can find them using Joomla Smart Search. Go to System -> Plugins and enable **Smart Search - Membership Pro**.
 
-Then go to Components -> Smarrt Search -> Index , execute index so that the plans will be indexed and searchable
+Then go to Components -> Smarrt Search -> Index, execute index so that the plans will be indexed and searchable

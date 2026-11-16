@@ -5,40 +5,40 @@ taxonomy:
         - docs
 ---
 
-Custom Fee Fields is a powerful feature in Membership Pro. It allows you to charge your subscribers additional fee (beside the subscritpion plan price) depends on the value(s) they enter/selected on a field on subscription form. If you use custom fee field feature, please remember the following rules:
+Custom fee fields add a fee to the plan price based on what subscribers enter or select on the subscription form. Follow these rules when setting up a custom fee field.
 
 1. Only the custom fields has **Fee Field** property set to **Yes** will be used to calculate fee for the subscription. 
 2. Custom Fee Fields only works for the following custom field types: **List (Single + Multiple Select), Checkboxes, Radio and Textbox**.
 3. On a subscription form, there can be multiple custom fee fields. **TOTAL AMOUNT SUBSCRIBER HAS TO PAY FOR THE SUBSCRIPTION = THE PRICE OF SUBSCRIPTION PLAN + SUM OF ALL FEE FIELDS**.
 
 ## Radio List + Single Dropdown Custom Field Type
-Let says you are creating a custom field which allow subscribers to choose membership type on your site. So you create a custom field with following parameters:
+Let says you are creating a custom field which allow subscribers to choose membership type on your site. So you create a custom field with the following parameters:
 
 1. Values : **Basic Member (Free)**, **Silver Member (+10$)**, **Gold Member (+20$)**. Each item in one line.
 2. Default Values : **Silver Member (+10$)**.
-3. Fee Values : **0, 10, 20** . Each item in one line. 
+3. Fee Values : **0, 10, 20**. Each item in one line.
 4. Field Type : **Radio List**.
 5. Fee Fied: must set to **Yes**
 
 ![Radio Custom Fee Field](radio-custom-fee-field.png)
 
-In the front-end , the system will display a radio custom field with 3 options : Basic Member (Free), Silver Member (+10$), Gold Member (+20$)
+In the front-end, the system will display a radio custom field with 3 options : Basic Member (Free), Silver Member (+10$), Gold Member (+20$)
 
 ![Radio custom fee field display](radio-custom-field-display.png)
 
 With the above settings:
 
-1. If subscribers choose **Basic Member** , they won't have to pay any additional fee.
+1. If subscribers choose **Basic Member**, they won't have to pay any additional fee.
 2. If subscribers choose **Silver Member** option, they will have to pay additional **10$**. 
 3. If subscribers choose **Gold Member** option, they will have to pay additional **20$**.
 
-Please note the mapping 1-1 between **Values** and **Fee Values** settings of the custom field. Basic Member (Free) mapped To 0 . Silver Member (+10$) mapped to 10. Gold Member mapped to 20.
+Please note the mapping 1-1 between **Values** and **Fee Values** settings of the custom field. Basic Member (Free) mapped To 0. Silver Member (+10$) mapped to 10. Gold Member mapped to 20.
 
 ## Checkboxes + MultiSelect Custom Field Type
 
-You can setup a same field as Radio Custom Fee field mentioned above. The only difference is the way the fee is calculated. For **Checkboxes** and **MultiSelect** custom field, the fee which subscribers will be charged will be total fee of all selected options. For example, with the above setup:
+You can set up a same field as Radio Custom Fee field mentioned above. The only difference is the way the fee is calculated. For **Checkboxes** and **MultiSelect** custom field, the fee which subscribers will be charged will be total fee of all selected options. For example, with the above setup:
 
-1. If subscribers If users select **Basic Member** , they won't have to pay any additional fee.
+1. If subscribers If users select **Basic Member**, they won't have to pay any additional fee.
 2. If subscribers select **Silver Member** option, they will have to pay additional **10$**. 
 3. If subscribers select **Gold Member** option, they will have to pay additional **20$**.
 4. If subscribers select both Silver Member and Gold Member, they will have to pay additional **30$** (10$ for Silver Member and 20$ for Gold Member).

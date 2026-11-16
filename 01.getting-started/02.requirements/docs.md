@@ -5,6 +5,6 @@ taxonomy:
         - docs
 ---
 
-**Membership Pro** is a Joomla extension, so you need to have a website built on [Joomla CMS](http://joomla.org) to use the extension. Please look at [https://www.joomla.org/about-joomla/technical-requirements.html](https://www.joomla.org/about-joomla/technical-requirements.html) to see technical requirement for your server. Latest version of Membership Pro only works with works with **Joomla 3.9.0+**. If you are using older Joomla version, submit a support ticket asking us sending old version of the extension which works with the old version of Joomla which you are using.
+**Membership Pro** requires a website built on [Joomla CMS](http://joomla.org). See [https://www.joomla.org/about-joomla/technical-requirements.html](https://www.joomla.org/about-joomla/technical-requirements.html) for the server requirements. Latest version of Membership Pro only works with works with **Joomla 3.9.0+**. If you use an older version of Joomla, submit a support ticket to request a compatible version of the extension.
 
-Membership Pro is also require **PHP 7.4.0+** to work. If your site is running on older version of PHP, please contact your hosting provider, ask them to change settings for your hosting account to use **PHP 7.4.0+**.
+Membership Pro also requires **PHP 7.4.0+**. If your site runs an older version of PHP, ask your hosting provider to configure your account to use **PHP 7.4.0+**.

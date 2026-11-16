@@ -4,13 +4,13 @@ media_order: task-delete-old-subscriptions.png
 published: true
 ---
 
-This scheduled task is used to deletes subscriptions older than certain Number Of Years (by default 10 years). Normally, you would not need to use this feature. However, it was asked by one customer, so we added support for it. To use this feature:
+This task deletes subscriptions older than the configured Number Of Years (10 years by default). Most sites do not need this task. Follow these steps if you need to use it.
 
 ## Create and configure the scheduled task
 
-1. Go to **System -> Plugins**, make sure **Task - Membership Pro** plugin is enabled.
-2. Go to **System -> Scheduled Tasks**, press New button in the toolbar to create a new scheduled task for **Membership Pro - Delete Old Subscriptions** task type.
-3. Setup all required parameters, save it.
+1. Go to **System -> Plugins** and make sure the **Task - Membership Pro** plugin is enabled.
+2. Go to **System -> Scheduled Tasks** and click New in the toolbar. Select the **Membership Pro - Delete Old Subscriptions** task type.
+3. Configure the required parameters and save the task.
 
 ![task-delete-old-subscriptions](task-delete-old-subscriptions.png "task-delete-old-subscriptions")
 

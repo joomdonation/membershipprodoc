@@ -4,9 +4,9 @@ media_order: 'sms_reminder_plugin_settings.png,plug_membershiprosms_nexmo.zip,pl
 published: true
 ---
 
-You might want to execute some tracking code (usually javascript code like Google Analytics Ecommerce tracking) on subscription complete page. For that, you can use **Conversion Tracking Code** code in Membership Pro
+You might want to execute some tracking code (usually JavaScript code like Google Analytics Ecommerce tracking) on subscription complete page. For that, you can use **Conversion Tracking Code** code in Membership Pro
 
-1. Enter the full code which you want to be executed on that config option (include <script> and </script> tag if that's javascript code
+1. Enter the full code which you want to be executed on that config option (include <script> and </script> tag if that's JavaScript code
 2. You can use the following tags and it will be replaced with the related information when the code is executed
 
 **[ID]** : Will be replaced with ID of the subscription record

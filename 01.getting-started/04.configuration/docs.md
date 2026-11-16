@@ -3,33 +3,33 @@ title: Configuration
 media_order: mp-configuration.png
 ---
 
-During the installation process, Membership Pro will generate default configuration data. However, you should still review all config options and change it to meet your own requirement if needed.
+Membership Pro creates default settings during installation. Review them and adjust them as needed for your site.
 
-To review and change Configuration, go to **Membership Pro** -> **Configuration**. When you do that, the screen below will be displayed:
+Go to **Membership Pro** -> **Configuration** to open the screen shown below.
 
 ![mp-configuration](mp-configuration.png "mp-configuration")
 
->>>>> To see the meaning of a config option / parameter, you can hover the moose over the name / title of that config option
+>>>>> Hover over the name of an option to see what it does.
 
-As most of the config options are very easy to understand, in the section below, we will just explain / review the most importants config options. If there are other options which are not mentioned here and you don't understand, feel free contact us for support. We are available to assist you whenever you want / you need.
+The sections below explain the main settings. Contact us if you need help with an option that isn't covered here.
 
 ## Frontend Framework Configuration
-This is quite important settings in Membership Pro and it depends on the frontend framework which your site template is built from.
+Choose these settings based on the frontend framework used by your site template.
 
 1. **Load Bootstrap CSS**: This should be set to **No** unless your site template is built base on a frontend framework not supported by Membership Pro (currently, Membership Pro supports **Bootstrap 4**, **Bootstrap 4* and **UIKIT3**).
-2. **Frontend Framework**: Default to **Bootstrap 5** because most of Joomla templates are built base on Bootstrap 5 these days.
-- If your site template is built base on Bootstrap version 4, set it to Bootstrap 4.
-- If your site template is built base on Bootstrap version 5 set it to Bootstrap 5.
-- If your site template is built base on UIKIT3 (for example, Yootheme templates) , set it to UIKIT3
+2. **Frontend Framework** defaults to **Bootstrap 5**, which many Joomla templates use.
+- If your site template is built with Bootstrap version 4, set it to Bootstrap 4.
+- If your site template is built with Bootstrap version 5 set it to Bootstrap 5.
+- If your site template is built with UIKIT3 (for example, Yootheme templates), set it to UIKIT3
 
 ### Use Bootstrap 4
-This will be used if your site template is built base on Bootstrap 4
+Use these settings if your site template uses Bootstrap 4.
 
 - Set **Load Bootstrap CSS** config option to **No*
 - Set **Frontend Framework** config option to **Bootstrap 4**
 
 ### Use Bootstrap 5
-This will be used if your site template is built base on Bootstrap 5
+Use these settings if your site template uses Bootstrap 5.
 
 - Set **Load Bootstrap CSS** config option to **No**
 - Set **Frontend Framework** config option to **Bootstrap 5**
@@ -43,14 +43,14 @@ This will be used if your site template is built base on twitter bootstrap 5
 ## General
 
 ### Subscription Settings
-1. **Registration Integration**: If set to Yes, when subscribers sign up for a subscription plan on your site, the system will allow them to enter username and password on to register for an account on your Joomla site. In most case, subscribers will need to have an account on your website so that they can login later to access to restricted resources, update their profile, renew membership, upgrade membership..., therefore **you should set this config option to Yes** unless you only use Membership Pro to simply get payment from your subscribers.
-2. **Only Create User Account When Membership Active/Approved**: By default, Membership Pro will create an acccount for subscriber right after they complete entering information on subscription form (before the payment is processed). If for some reasons, the payment is failed or the subscriber abandon the payment, the account will remain blocked and he could not use that account again if he decides to sign up again in the future. If you set this config option to **Yes**, Membership Pro will only create the Joomla account for subscribers when their subscription become active (after completing payment for the subscription or admin approves the subscription), it will solve the issue mentioned above. Based on my experience, I would suggest to set this config option to **Yes**.
-3. **Send Activation Email**: If you require users to receive a confirmation email and click on activation link to activate their account (to make sure the email he entered on subscription form is a valid / existing email), please set this config option to **Yes**. Otherwise, if you want their accounts to be activated automatically by Membership Pro after subscribers complete payment for the subscription, set this config option to **No**
-4. **Auto Login**: If set to Yes, subscribers will be logged in automatically by the system after they completed payment for the subscription. By doing that, subscribers can start access to restricted resources without having to performing login.
-5. **Show Login Box On Subscription Page**: If set to Yes, on subscription form page, Membership Pro will display login box so that existing customers can login before continuing the subscription process. If you have **Registration Integration** config option set to **Yes**, you should set this config option to **Yes**, to.
-6. **Allow Membership Renewal X days before subscription expired**: By default, Membership Pro allows subscribers to renew their subscription any time they want (even right after they just subscribe for the plan). If you only want your subscribers to renew their subscription **X days before the subscription expired**, enter the number of days into this config option. This will help preventing subscribers register for the same plan multiple times.
-7. **Enable Captcha**: If you want to use Captcha on Membership Pro to prevent spam, you need to set this config option to Yes. As Membership Pro uses Joomla core captcha, beside setting this config option to Yes, you need to config Joomla core re-captcha plugin, too. Please see [https://docs.joomla.org/How_do_you_use_Recaptcha_in_Joomla%3F](https://docs.joomla.org/How_do_you_use_Recaptcha_in_Joomla%3F) for instructions.
-8. **Enable Coupon**: If you setup coupons in Membership Pro and want to allow subscribers to enter coupon code on subscription form to get discount for their subscription, please set this config option to **Yes**.
+1. With **Registration Integration** enabled, subscribers can enter a username and password to create a Joomla account when they sign up. An account lets them log in to access restricted resources, update their profile, renew, or upgrade. In most cases, **you should set this config option to Yes**. If you use Membership Pro only to collect payments, you can leave it disabled.
+2. By default, Membership Pro creates a Joomla account as soon as a subscriber submits the subscription form, before processing payment. If the payment fails or the subscriber abandons it, the account remains blocked and the subscriber cannot use it to sign up again. We recommend setting **Only Create User Account When Membership Active/Approved** to **Yes** so Membership Pro creates the account only after the subscription becomes active through payment or administrator approval.
+3. Set **Send Activation Email** to **Yes** if you want users to verify their email address by following an activation link. Set it to **No** if you want Membership Pro to activate accounts automatically after payment.
+4. Set **Auto Login** to Yes to log subscribers in automatically after payment so they can access restricted resources immediately.
+5. Set **Show Login Box On Subscription Page** to Yes to let existing customers log in directly from the subscription form. If **Registration Integration** is set to **Yes**, set this option to **Yes** as well.
+6. By default, subscribers can renew as soon as they sign up. Enter a number of days in **Allow Membership Renewal X days before subscription expired** to allow renewal starting that many days before the subscription expires. This helps prevent subscribers from signing up for the same plan multiple times.
+7. Set **Enable Captcha** to Yes to help prevent spam. Membership Pro uses Joomla's built-in captcha, so also configure the Joomla reCAPTCHA plugin. See [https://docs.joomla.org/How_do_you_use_Recaptcha_in_Joomla%3F](https://docs.joomla.org/How_do_you_use_Recaptcha_in_Joomla%3F) for instructions.
+8. If you've set up coupons, set **Enable Coupon** to **Yes** so subscribers can enter a coupon code on the subscription form and receive a discount.
 9. **Generate Membership ID**: If you want Membership Pro to generate an unique, auto-increment **Membership ID** for each subscriber, set this config option to **Yes**. If you do so, remember to remove and change the following config options to meet your need: **Membership ID prefix**, **Reset membership id every year**, **Membership ID start number**.  
 
 ### Theme Settings

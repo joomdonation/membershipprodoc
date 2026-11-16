@@ -3,7 +3,7 @@ title: 'Add New Subscription'
 media_order: new-subscription.png
 ---
 
-Sometime, you will need to add subscription record manually (for example, when users make phone call ask you to subscribe them into your membership system ..). To do that, from subscriptions management screen, select the plan you want to add subscription from plans filter dropdown, press **New** button in the toolbar to add new subscription record. A form will be displayed to allow you enter information for the subscription
+Sometimes, you will need to add a subscription record manually (for example, when users make phone call ask you to subscribe them into your membership system ..). To do that, from subscriptions management screen, select the plan you want to add subscription from plans filter dropdown, click the **New** button in the toolbar to add new subscription record. A form will be displayed to allow you enter information for the subscription
 
 ![new-subscription](new-subscription.png "new-subscription")
 

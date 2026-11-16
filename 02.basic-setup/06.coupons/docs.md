@@ -6,9 +6,9 @@ taxonomy:
 media_order: 'coupon-csv.png,coupons.png,add-new-coupon.png,batch-coupons.png'
 ---
 
-**Membership Pro** allows you to create coupon codes to give discount to your subscribers when they sign up for your subscription plan. 
+Create coupon codes in **Membership Pro** to give subscribers a discount when they sign up for a plan.
 
-To access to coupons management page, there are 3 different ways:
+To open coupons management page, there are 3 different ways:
 1. Access to **Components -> Membership Pro -> Coupons**
 2. Access to Membership Pro Dashboard, then click on **Coupons** icon.
 3. On any pages in Membership Pro, access to **Coupons** menu item.
@@ -16,7 +16,7 @@ To access to coupons management page, there are 3 different ways:
 ![coupons](coupons.png "coupons")
 
 ## Add New Coupon
-Press **New** button to create new coupon
+Click the **New** button to create new coupon
 
 1. **Code**: The code for this new coupon.
 2. **Discount**: Enter the discount for this coupon. Discount can be set to a fixed amount (for example 10$) ro by percent (for example 10% of subscription fee).
@@ -53,8 +53,8 @@ To be imported into Membership Pro, the csv file contains coupon code need to be
 
 When you have the csv file contains the coupon codes ready, please follow the steps below to get the coupon code imported into the system:
 1. Access to **Coupons => Import Coupons **sub-menu item.
-2. Click on **Choose File** button to select the csv file.
-3. Press **Import Coupons** button in the toolbar to process the import.
+2. Click the **Choose File** button to select the csv file.
+3. Click the **Import Coupons** button in the toolbar to process the import.
 
 After that, the coupon codes in the csv file will be imported and can be used in the system
 
@@ -76,6 +76,6 @@ From any page in Membership Pro, you can access to **Coupons -> Batch Coupons** 
 8. **Valid To Date**: If you chose a date, the coupon code can only be used before the selected date. After that date, the coupon code cannot be used anymore.
 9. **Times**: Enter number of times these coupon codes can be used. If you leave it empty, the coupon code can be used unlimited times.
 
-After enter all the necessary settings, press **Generate Coupons** button in the toolbar and the coupon codes will be generated, ready to use in your system
+After enter all the necessary settings, click the **Generate Coupons** button in the toolbar and the coupon codes will be generated, ready to use in your system
 
 

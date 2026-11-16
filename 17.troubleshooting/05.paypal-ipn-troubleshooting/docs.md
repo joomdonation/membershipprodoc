@@ -3,7 +3,7 @@ title: 'Subscription status is Pending after paid'
 visible: true
 ---
 
-Sometime, during testing peior, you see that after making payment at PayPal, the status of subscription record is Pending instead of Active as expected. Don't worry, there could be many reasons causing this issue and we will figure it out:
+Sometimes, during testing period, you see that after making payment at PayPal, the status of subscription record is Pending instead of Active as expected. Don't worry, there could be many reasons causing this issue and we will figure it out:
 
 1. First, please make sure your site is public accessible, so:
 
@@ -13,7 +13,7 @@ Sometime, during testing peior, you see that after making payment at PayPal, the
 
 2. Make sure PayPal IPN is enabled in your PayPal account (the one which receives payment)
 
-By default, PayPal IPN is turned on in your PayPal account. Each time a payment processed, PayPal will send an IPN message to Membership Pro to notify this payment. If for some reasons, PayPal IPN is turned off on your PayPal account, Membership Pro won't work and you will need to turn it on.
+By default, PayPal IPN is turned on in your PayPal account. Each time a payment processed, PayPal will send an IPN message to Membership Pro to notify this payment. If for some reason, PayPal IPN is turned off on your PayPal account, Membership Pro won't work and you will need to turn it on.
 
 - Follow the instructions at https://www.jotform.com/help/276-How-to-Enable-IPN-for-Paypal to enable PayPal IPN in the PayPal account which receive payment on your site. PayPal will ask for IPN URL, simply enter URL of your site into that parameter
 - Go to Membership Pro -> Payment Plugins, click on os_paypal payment plugin to edit, set Log IPN Messages parameter to Yes. 

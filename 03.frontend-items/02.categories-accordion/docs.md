@@ -4,7 +4,7 @@ media_order: categories_accordion.png
 published: true
 ---
 
-Categories page displays list of categories and it's plans using according on format. From that page, users can click on a category to see the plans from that categories and subscribe for the plan they want.
+The Categories page displays categories and their plans in an accordion. Users can expand a category to see its plans and sign up.
 
 To use this layout, you need to create a menu item to link to **Categories Accordion** menu option of **Membership Pro**. Beside common Joomla menu items parameters, this menu option supports the following parameters specific to Membership Pro:
 

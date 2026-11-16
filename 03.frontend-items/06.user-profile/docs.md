@@ -8,7 +8,7 @@ taxonomy:
 
 ## User Profile
 
-You can setup a menu item to link to **User Profile** view of **Membership Pro** to allow subscribers to access to his profile so that:
+You can set up a menu item to link to **User Profile** view of **Membership Pro** to allow subscribers to access his profile so that:
 1. He can update his profile information (including account username / password). When he updates his profile data, these profile data will be syncronized to all of his subscription records.
 2. He can see his subscription history (all subscription records), his subscriptions (list of plans which he subscribed, and when it will be expired..)
 3. He can renew his membership (if there are renew options available)

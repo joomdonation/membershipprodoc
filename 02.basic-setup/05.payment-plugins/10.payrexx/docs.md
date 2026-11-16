@@ -11,8 +11,8 @@ When you purchase the payment plugin, you will receive a zip file called **os_os
 ## Configuration
 1. Click on the payment plugin to edit, enter payment plugin parameters, then publish it
 
-- **Instance Name**: This is is a part of the url where you access your Payrexx installation. For example, if the URL of your payrexx installation is https://joomdonation.payrexx.com , then **joomdonation** is **Instance Name**.
-- **API Key** : Login to your payrexx installation, access to Integrations -> API & Plugins and get API Key from there.
+- **Instance Name**: This is is a part of the url where you access your Payrexx installation. For example, if the URL of your payrexx installation is https://joomdonation.payrexx.com, then **joomdonation** is **Instance Name**.
+- **API Key** : Log in to your payrexx installation, access to Integrations -> API & Plugins and get API Key from there.
 
 2. You will also access to **Integrations -> Webhooks** and setup webhook with the following settings:
 

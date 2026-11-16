@@ -3,7 +3,7 @@ title: GDPR
 media_order: 'gdpr_subscription_form.png,gdpr_settings.png'
 ---
 
-[GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) is now supported in Membership Pro (from version 2.13.2). If you run a website require compatible with this rule, You can go to Membership Pro -> Configuration, look at **Privacy Policy (GDPR) Settings** section, change the necessary settings to have the extension compatible with that requirement:
+[GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) is now supported in Membership Pro (starting with version 2.13.2). If you run a website require compatible with this rule, You can go to Membership Pro -> Configuration, look at **Privacy Policy (GDPR) Settings** section, change the necessary settings to have the extension compatible with that requirement:
 
 ![GDPR settings](gdpr_settings.png)
 
@@ -15,7 +15,7 @@ With that setup:
 
 1. Registrants will have to check on **Privacy Policy** checkbox to process the registration. They can also click on **Privacy Policy** to see the privacy policy article.
 2. The default privacy short text is **By signing up to this subscription plan and agreeing to the Privacy Policy you agree to this web site storing your information.**. If you want to change it, you can go to Membership Pro -> Translation, find the language item OSM_AGREE_PRIVACY_POLICY_MESSAGE and change it.
-3. Users will only be subscribed to your newsleters if they check on **I want to subscribe to your newsletters** checkbox.
+3. Users will only be subscribed to your newsletters if they check on **I want to subscribe to your newsletters** checkbox.
 
 ![Subscription Form](gdpr_subscription_form.png)
 

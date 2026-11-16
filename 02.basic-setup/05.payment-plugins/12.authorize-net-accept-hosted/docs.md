@@ -13,7 +13,7 @@ When you purchase the payment plugin, you will receive a zip file called **os_os
 
 ## Configuration
 
-1. Login to your authorize.net account, access to **Account** -> **Account and API Settings**  -> **API Credentials and Keys**. Get API Login, Transaction Key (generate it if needed), Signature Key (generate if needed) and enter it to Associated parameters in the **os_authnetaccepthosted** payment plugin parameters.
+1. Log in to your authorize.net account, access to **Account** -> **Account and API Settings**  -> **API Credentials and Keys**. Get API Login, Transaction Key (generate it if needed), Signature Key (generate if needed) and enter it to Associated parameters in the **os_authnetaccepthosted** payment plugin parameters.
 
 ![plugin_parameters](plugin_parameters.png "plugin_parameters")
 

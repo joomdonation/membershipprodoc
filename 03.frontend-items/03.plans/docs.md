@@ -3,7 +3,7 @@ title: Plans
 media_order: 'plans_list_default_layout.png,plans_list_columns.png,plans_list_pricing_table.png,plans_list_pricing_table_circle.png,plans_list_pricing_table_flat.png'
 ---
 
-**Plans** page displayes list of subscription plans (from one or all categories) which you setup in Membership Pro on your site. From that page, users can see list of plans, click on a plan to see details information of that plan or click on **Sign Up** to subscribe for the plan they want. There are **5 menu options** you can use to display subscription plans
+The **Plans** page lists the subscription plans you set up in Membership Pro, either from a single category or from all categories. Users can browse the plans, select a plan to see its details, or click **Sign Up** to subscribe. You can choose from **5 menu options** to display subscription plans.
 
 ## Plans List Default Layout
 ![Plans List Default Layout](plans_list_default_layout.png)

@@ -4,13 +4,13 @@ media_order: task-delete-old-invoices.png
 published: true
 ---
 
-Each time Membership Pro generates PDF invoice, a PDF file for that invoice will be generated and stored on server and costs hosting space. This scheduled task is used to delete invoice PDFs which are older than one day each time it is executed. To use this feature:
+Membership Pro stores each generated invoice PDF on your server. To save hosting space, this task deletes invoice PDFs more than one day old each time it runs.
 
 ## Create and configure the scheduled task
 
-1. Go to **System -> Plugins**, make sure **Task - Membership Pro** plugin is enabled.
-2. Go to **System -> Scheduled Tasks**, press New button in the toolbar to create a new scheduled task for **Membership Pro - Delete Old Invoices** task type.
-3. Setup all required parameters, save it.
+1. Go to **System -> Plugins** and make sure the **Task - Membership Pro** plugin is enabled.
+2. Go to **System -> Scheduled Tasks** and click New in the toolbar. Select the **Membership Pro - Delete Old Invoices** task type.
+3. Configure the required parameters and save the task.
 
 ![task-delete-old-invoices](task-delete-old-invoices.png "task-delete-old-invoices")
 

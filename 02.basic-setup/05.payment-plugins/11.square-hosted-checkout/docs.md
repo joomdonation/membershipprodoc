@@ -13,24 +13,24 @@ When you purchase the payment plugin, you will receive a zip file called **os_eb
 1. Create a Square APP
 
 - Go to https://developer.squareup.com/console/en/apps
-- Create an app if you already don't have one for Membership Pro use on the website yet
-- Click on the app to go inside the app.
+- Create an app if you don't already have one for Membership Pro on your site.
+- Select the app to open it.
 
 2. Enter necessary payment plugins parameters
 
 Go to **Membership Pro** -> **Payment Plugins**, click on **os_squarehostedcheckout** payment plugin to edit and enter the following parameters:
 
-- **Access Token**: Inside the app, you can easily see and get Access Token 
+- **Access Token**: Copy the access token from the app.
 
 ![sandbox_access_token](sandbox_access_token.png "sandbox_access_token")
 
-- **Location ID**: Inside the app, click on **Locations** link at the left and get Location ID from there
+- **Location ID**: Open **Locations** in the app's sidebar and copy the location ID.
 
 ![sandbox_location_id](sandbox_location_id.png "sandbox_location_id")
 
-- **Signature Key**: You can get data **Signature Key** data of the webhook which you create in next step.
+- **Signature Key**: Copy the signature key from the webhook you create in the next step.
 
-- **Order Prefix**: This is optional. You might want to enter a prefix for this parameter to make sure payment note passed to Square unique.
+- **Order Prefix**: This is optional. Enter a prefix if you want the payment note sent to Square to be unique.
 
 3. Create Webhook
 

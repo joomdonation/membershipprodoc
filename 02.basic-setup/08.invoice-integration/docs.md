@@ -5,7 +5,7 @@ taxonomy:
         - docs
 ---
 
-Membership Pro supports PDF invoice feature. If you enable this feature, when subscribers subscribe/ renew/ upgrade their membership, there will be an invoice PDF generated:
+When you enable PDF invoices in Membership Pro, the extension generates an invoice when subscribers sign up, renew, or upgrade their membership.
 1. The layout of the invoice PDF is configurable
 2. The invoice PDF will be generated for each transaction
 2. The invoice PDF can be configured to send subscriber's email

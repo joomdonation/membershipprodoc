@@ -4,13 +4,13 @@ media_order: task-incomplete-payment-subscriptions-notification.png
 published: true
 ---
 
-This scheduled task is used to send notification to administrators about the subscription records which choose to use online payment methods such as PayPal, Stripe.... but did not complete payment (ignore payment process or payment failed for whatever reasons). Administrator can then contact these users to see why they did not make payment if needed. To use this feature:
+This task notifies administrators about subscriptions for which the subscriber selected an online payment method such as PayPal or Stripe but did not complete payment. This includes payments that fail or are abandoned. Administrators can follow up with those subscribers if needed.
 
 ## Create and configure the scheduled task
 
-1. Go to **System -> Plugins**, make sure **Task - Membership Pro** plugin is enabled.
-2. Go to **System -> Scheduled Tasks**, press New button in the toolbar to create a new scheduled task for **Membership Pro - Incomplete Payment Subscriptions Notification** task type.
-3. Setup all required parameters, save it.
+1. Go to **System -> Plugins** and make sure the **Task - Membership Pro** plugin is enabled.
+2. Go to **System -> Scheduled Tasks** and click New in the toolbar. Select the **Membership Pro - Incomplete Payment Subscriptions Notification** task type.
+3. Configure the required parameters and save the task.
 
 ![task-incomplete-payment-subscriptions-notification](task-incomplete-payment-subscriptions-notification.png "task-incomplete-payment-subscriptions-notification")
 
@@ -21,9 +21,9 @@ This scheduled task should be run every few hours. So you can setup **Basic Fiel
 - **Interval in Hours**: Set to the number you want, for example, if you set it to 3, the task will be run every 3 hours.
 
 ## Task Parameters
-- **Notification Emails**:  Enter the emails you want to receive notification about this incomplete payment subscriptions. Multiple emails are supported, just separate these emails by comma.
+- **Notification Emails**: Enter the email addresses that should receive notifications about incomplete payments. Separate multiple addresses with commas.
 - **Subject**: Subject of the email. You can use [IDS] tag and it will be replaced with IDs of the incomplete payment subscriptions. For example: **Payment For Subscription [IDS] were not completed**
-- **Message**: Body of the email. You can use [IDS] and [LINKS] tags in the message. For example:
+- **Message**: Enter the body of the email. You can use the [IDS] and [LINKS] tags as shown in the example below.
 
 Dear administrator
 

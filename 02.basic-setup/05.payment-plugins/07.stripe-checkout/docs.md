@@ -11,9 +11,9 @@ When you purchase the payment plugin, you will receive a zip file called **os_os
 1. Click on the payment plugin to edit, enter payment plugin parameters, then publish it
 
 - For API Keys, you can follow instructions at https://stripe.com/docs/keys#api-keys to get it.
-- For Signing Secret, you need to setup Webhook URL (see the next step) and get the information from there. In the webhook URL setting, click on **Reveal** button to get it (see the screenshot at the end for more details)
+- For Signing Secret, you need to setup Webhook URL (see the next step) and get the information from there. In the webhook URL setting, click the **Reveal** button to get it (see the screenshot at the end for more details)
 
-2. You will need to login to your Stripe account, add a "Webhook URL" below (see https://stripe.com/docs/webhooks/setup#add-endpoint-dashboard for instructions)
+2. You will need to log in to your Stripe account, add a "Webhook URL" below (see https://stripe.com/docs/webhooks/setup#add-endpoint-dashboard for instructions)
 
 **https://domain.com/index.php?option=com_osmembership&task=recurring_payment_confirm&payment_method=os_stripe**
 

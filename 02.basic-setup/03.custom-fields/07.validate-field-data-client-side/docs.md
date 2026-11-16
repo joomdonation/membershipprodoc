@@ -12,7 +12,7 @@ If you want to validate data of a custom field using this custom field, go to Ev
 
 See [https://github.com/posabsolute/jQuery-Validation-Engine?tab=readme-ov-file#validators](https://github.com/posabsolute/jQuery-Validation-Engine?tab=readme-ov-file#validators) for list of validators supported by this library and use the one meets your need
 
-To help you configure it easier, the system tries to populate **Validation Rules** automatically base on two settings in custom fields:
+To help you configure it easier, the system tries to populate **Validation Rules** automatically based on two settings in custom fields:
 - **Required**: If you select Yes, Membership Pro will insert **validate[required]** to **Validation Rules** automatically.
 - **Date Type Validation**: When you select an option, the system will insert the related rules into **Validation Rules** automatically. For example, when you select **Min Integer**, the system will insert **validate[required,custom[integer],min[-5]]**, of curse, you will need to change -5 to the correct value you want.
 

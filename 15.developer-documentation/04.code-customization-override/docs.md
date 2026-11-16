@@ -2,7 +2,7 @@
 title: 'Code Customization (override)'
 ---
 
-From version 2.6.4, **Membership Pro** has a mechanism to allow you to override it's code (static methods, model, view, controller classes). So in case you have to customize **Membership Pro** to meet your own need, you won't have to worry about upgrading to loosing this customization while updating to future releases of the extension anymore. Below you can see the details:
+Starting with version 2.6.4, **Membership Pro** has a mechanism to allow you to override its code (static methods, model, view, controller classes). So in case you have to customize **Membership Pro** to meet your own need, you won't have to worry about upgrading to loosing this customization while updating to future releases of the extension anymore. Below you can see the details:
 
 ## Override static methods (helper methods)
 
@@ -63,7 +63,7 @@ class OSMembershipHelperOverrideJquery extends OSMembershipHelperJquery
 {
 }
 ```
-4.Copy the original code of the method you want to override into the class you defined above and customize it to meet your need. Please note that these classes extends the original class, so you can call any (public/protected) methods in the parent class
+4.Copy the original code of the method you want to override into the class you defined above and customize it to suit your needs. Please note that these classes extends the original class, so you can call any (public/protected) methods in the parent class
 
 You can see the skeleton of the override code for these methods here https://github.com/joomdonation/osmembership-override-skeleton/tree/master/helper/override
 
@@ -86,7 +86,7 @@ class OSMembershipControllerOverrideRegister extends OSMembershipControllerRegis
 
 }
 ```
-4.Copy the original code of the method you want to override into the class you defined above and customize it to meet your need. Please note that these classes extends the original class, so you can call any (public/protected) methods in the parent class. See [https://github.com/joomdonation/membershippro-override-skeleton/blob/master/controller/override/register.php](https://github.com/joomdonation/membershippro-override-skeleton/blob/master/controller/override/register.php) for sample of controller override
+4.Copy the original code of the method you want to override into the class you defined above and customize it to suit your needs. Please note that these classes extends the original class, so you can call any (public/protected) methods in the parent class. See [https://github.com/joomdonation/membershippro-override-skeleton/blob/master/controller/override/register.php](https://github.com/joomdonation/membershippro-override-skeleton/blob/master/controller/override/register.php) for sample of controller override
 
 ## Override method in a model class
 
@@ -107,7 +107,7 @@ class OSMembershipModelOverrideRegister extends OSMembershipModelRegister
 
 }
 ```
-4.Copy the original code of the method you want to override into the class you defined above and customize it to meet your need. Please note that these classes extends the original class, so you can call any (public/protected) methods in the parent class. See https://github.com/joomdonation/osmembership-override-skeleton/blob/master/model/override/register.php for a sample of override model classs.
+4.Copy the original code of the method you want to override into the class you defined above and customize it to suit your needs. Please note that these classes extends the original class, so you can call any (public/protected) methods in the parent class. See https://github.com/joomdonation/osmembership-override-skeleton/blob/master/model/override/register.php for a sample of override model classs.
 
 ## Override method in a view class
 
@@ -128,4 +128,4 @@ class OSMembershipViewOverrideRegisterHtml extends OSMembershipViewRegisterHtml
 {
 }
 ```
-5.Copy the original code of the method you want to override into the class you defined above and customize it to meet your need. Please note that these classes extends the original class, so you can call any (public/protected) methods in the parent class. See https://github.com/joomdonation/osmembership-override-skeleton/blob/master/view/override/register/html.php for sample of override view class
+5.Copy the original code of the method you want to override into the class you defined above and customize it to suit your needs. Please note that these classes extends the original class, so you can call any (public/protected) methods in the parent class. See https://github.com/joomdonation/osmembership-override-skeleton/blob/master/view/override/register/html.php for sample of override view class

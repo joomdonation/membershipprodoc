@@ -5,7 +5,7 @@ taxonomy:
         - docs
 ---
 
-From custom fields managemenet screen, press **New** button in toolbar to add a new custom field. When setup a cuustom fields, the following information will need to be entered:
+On the custom fields management screen, click the **New** button in the toolbar to add a custom field. Configure the field using the options below.
 
 ## General Information
 1. **Plan**: Select the plan(s) this custom field will be assigned to. You can select **All Plans**, **one plan** or **multiple plans** (use **Ctrl + Click** to select multiple plans)
@@ -38,7 +38,7 @@ These settings below will be used to control how the field is displayed in the s
 
 ## Dependency settings (Conditional Custom Fields)
 
-Sometime, you want that when subscribers select certain otpions (From List, Checkboxes, Radio custom fields), there will be additional fields be showed/hided to allow entering additional information. If that's the case, you will need to use this **Conditional Custom Fields** feature
+Sometimes, you want that when subscribers select certain otpions (From List, Checkboxes, Radio custom fields), there will be additional fields be showed/hided to allow entering additional information. If that's the case, you will need to use this **Conditional Custom Fields** feature
 
 1. **Depend On Field**: Select the field (which we call **master field**) this custom field will be depended on. In this dropdown, the system will display the published **List, Checkboxes, Radio** custom fields which you created in the system. When you select a field from this dropdown, the custom field which is being added/edited will only be displayed if certain values of the **master field** is checked/selected.
 2. **Depend On Options**: Check on the options which you want this field to be showed when subscribers select an option from master field.

@@ -6,7 +6,7 @@ taxonomy:
 media_order: 'tax-rules.png,new-tax-rule.png'
 ---
 
-If you want to charge tax for subscriptions, you will need to setup tax rules. To access to **Tax Rules** management page, there are 3 different ways:
+Set up tax rules if you need to charge tax on subscriptions. You can open the **Tax Rules** management page in three ways.
 
 1. Access to **Components -> Membership Pro -> Tax Rules**.
 2. Access to Membership Pro Dashboard, then click on **Tax Rules** icon.
@@ -56,8 +56,8 @@ When subscribers entering subscription form to sign up, Membership Pro will try 
 
 ## EU Tax Rules
 
-If you are from an EU country and need to setup tax rules, there will be many tax rules need to be created. However, don't worry, we have a tool to help you. Follow the steps below and you will have the tax rules setup and works property in Membership Pro and it is conform with EU Tax Rules:
+If you are from an EU country and need to set up tax rules, there will be many tax rules need to be created. However, don't worry, we have a tool to help you. Follow the steps below and you will have the tax rules setup and works property in Membership Pro and it is conform with EU Tax Rules:
 1. Go to Membership Pro => Configuration, make sure you set Default Country config option to your country
 2. You need to create a custom field to allow subscribers to enter EU VAT Number. Go to Membership Pro -> Create a text custom field, publish it.
-3. Go to Membership Pro => Configuration, look at **EU VAT Number field** config option (at the right) and select the custom field which you setup in step #2 above
+3. Go to Membership Pro => Configuration, look at **EU VAT Number field** config option (at the right) and select the custom field that you set up in step #2 above
 4. Access to Tools => Build EU Tax Rules. When you do that, all the necessary tax rules will be created and Membership Pro will calculate the tax rate for subscription follow the EU Tax Rules

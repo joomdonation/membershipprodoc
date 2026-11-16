@@ -2,7 +2,7 @@
 title: 'API Basic'
 ---
 
-Membership Pro has a very basic API methods to allow external applications (could be mobile app) to call to add, update, get details information of a subscription record.
+Membership Pro provides API methods that external applications, such as mobile apps, can use to add or update subscriptions and retrieve details for a subscription record.
 
 ## Enable API
 If you want to use APIs, you will first need to enable it. Go to Membership Pro -> Configuration, look at API Settings tab, set Enable API parameter to Yes. You should also set a secret key into **Api Key** config option for secure purpose (only applications know that key can called the API methods)
@@ -47,7 +47,7 @@ If you want to use APIs, you will first need to enable it. Go to Membership Pro 
 
 **Request Data**:
 
-- id : Contains ID of the subscription record which you want to get details information of the subscription
+- id : Contains ID of the subscription record which you want to get detailed information of the subscription
 
 **Response**: Json data contains all information of the subscription
 

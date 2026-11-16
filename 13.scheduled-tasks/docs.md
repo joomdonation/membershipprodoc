@@ -6,7 +6,7 @@ taxonomy:
 published: true
 ---
 
-Membership Pro has a task plugin called **Task - Membership Pro** which provides several scheduled tasks below:
+The **Task - Membership Pro** plugin provides the scheduled tasks listed below.
 
 - [**Membership Pro - Offline Payment Reminder**](/scheduled-tasks/offline-payment-reminder)
 - [**Membership Pro - Offline Recurring Invoice**](/scheduled-tasks/offline-payment-reminder)
@@ -20,4 +20,4 @@ Membership Pro has a task plugin called **Task - Membership Pro** which provides
 - [**Membership Pro - Delete Old Invoices**](/scheduled-tasks/delete-old-invoices)
 - [**Membership Pro - Delete PDF Members Card**](/scheduled-tasks/delete-old-member-cards)
 
-If you want to use these schedule tasks, the first thing you need to go is going to **System -> Plugins**, find and enable **Task - Membership Pro** plugin. Then create new task scheduled of the task type you need and let it run automatically by Joomla to do the job it offers.
+Go to **System -> Plugins** and enable **Task - Membership Pro**. Create a scheduled task of the type you need, then let Joomla run it automatically.

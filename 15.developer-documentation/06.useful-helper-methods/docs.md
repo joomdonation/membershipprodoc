@@ -3,7 +3,7 @@ title: 'Useful Helper Methods'
 published: true
 ---
 
-There are some useful API methods which could be helpful in case you develop custom code to integrate with Membership Pro. If your code is not in Membership Pro context, you will first need to add the line of code below to load Membership Pro API (before you can use it's API methods)
+Use these helper methods when integrating custom code with Membership Pro. If your code runs outside Membership Pro, use the line below to load the Membership Pro API before calling its methods.
 
 ```php
 require_once JPATH_ADMINISTRATOR . '/components/com_osmembership/loader.php';

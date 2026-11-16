@@ -8,7 +8,7 @@ media_order: emails-messages.png
 
 When you install Membership Pro, Membership Pro will generate default **English Messages** which will be used to display on **subscription form**, display on **subscription complete page**, display in **emails**.....
 
-These messages are configurable in the system. You should review all of these generated messages and change it to meet your need if needed, especial when you use a none English language on your site.
+These messages are configurable in the system. You should review all of these generated messages and change it to suit your needs if needed, especial when you use a none English language on your site.
 
 On the screen, there is a search box which allows you to easy find the message you want to change by entering:
 
@@ -18,12 +18,12 @@ On the screen, there is a search box which allows you to easy find the message y
 
 So if you want to change certain message, you can take few words from that message and enter it into search box to search for that message.
 
-To see the messages and change it to meet your need, there are 3 ways:
+To see the messages and change it to suit your needs, there are 3 ways:
 1. Access to **Components => Membership Pro => Emails & Messages**
 2. Access to Membership Pro Dashboard, then click on **Emails & Messages** icon.
 3. On any pages in Membership Pro, access to **Setup => Emails & Messages** menu item.
 
->>> If you want to use the old **Emails & Messages** interface (which loads all messages in a single page), you can access to Tools -> Legacy Emails & Messages . This will allows you managing emails & messages using the interface in Membership Pro older than  3.0.0
+>>> If you want to use the old **Emails & Messages** interface (which loads all messages in a single page), you can access to Tools -> Legacy Emails & Messages. This will allows you managing emails & messages using the interface in Membership Pro older than  3.0.0
 
 ![emails-messages](emails-messages.png "emails-messages")
 
@@ -77,7 +77,7 @@ This section contains the messages which will be used when payment for a recurri
 
 ## Reminder Messages
 
-This section contains the messages use to send to subscribers to notify them before their subscription expired. Right now, Membership Pro allows sending up to 3 reminder emails before subscription expired
+This section contains the messages use to send to subscribers to notify them before their subscription expires. Right now, Membership Pro allows sending up to 3 reminder emails before subscription expires
 
 1. **First Reminder Email Subject**: Subject of the first reminder email sent to subscribers.
 2. **First Reminder Email Body**: Message of the first reminder email sent to subscribers.

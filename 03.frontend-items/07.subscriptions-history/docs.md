@@ -6,7 +6,7 @@ taxonomy:
         - docs
 ---
 
-**Subscriptions History** page displays list of subscription records which the current logged in user has subscribed on your site. Users can also click on a record to see the details information of the subscription.
+The **Subscriptions History** page lists the logged-in user's subscription records. Users can select a record to view its details.
 
 To use this feature, please create a menu item to link to **Subscription History** menu option of **Membership Pro**.
 

@@ -3,7 +3,7 @@ title: 'System - Membership Pro'
 media_order: plg_system_membershippro.png
 ---
 
-This plugin is used to perform some common tasks in Membership Pro:
+This plugin handles common tasks in Membership Pro.
 
 1. Generate Invoice Number (if invoice feature is enabled)
 2. Generate Membership ID (if you enable this option)
@@ -11,6 +11,6 @@ This plugin is used to perform some common tasks in Membership Pro:
 
 This plugin is published automatically by Membership Pro install script when you install Membership Pro, please **DO NOT UNINSTALL OR UNPUBLISH IT**
 
-If you ever want to block subscriber's user account when their subscription expired, you can set the parameter **Block account when subscription expired** of this plugin to **Yes**. I would suggest you to think carefully before enabling this parameter because if you do so, subscribers won't be able to login to renew their membership after their subscription expired, so you will end up with loosing money.
+If you ever want to block subscriber's user account when their subscription expires, you can set the parameter **Block account when subscription expired** of this plugin to **Yes**. I would suggest you to think carefully before enabling this parameter because if you do so, subscribers won't be able to log in to renew their membership after their subscription expires, so you will end up with loosing money.
 
 ![plg_system_membershippro](plg_system_membershippro.png "plg_system_membershippro")

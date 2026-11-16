@@ -4,19 +4,19 @@ media_order: 'frontend-subscriptions-management.png,manage-subscriptions-permiss
 published: true
 ---
 
-This menu item type allows you to use build-in QRCODE scanner to check **Membership Status** of a subscription plan of certain user. To use it:
+This menu item type opens the built-in QR code scanner so you can check a user's **Membership Status** for a subscription plan.
 
-1. Enable and use [Member Card](/basic-setup/membership-card) feature
-2. In Member Card Layout, enter [QRCODE] tag in the position you want. That will render a QRCODE in Member Card
-3. Setup a menu item to link to QRCODE Scanner menu item type
-4. Login to the site (from your mobile) using an account which have **Manage Subscriptions** permission. 
-5. Access to the menu item which you created in step 3. 
+1. Enable the [Member Card](/basic-setup/membership-card) feature.
+2. In Member Card Layout, insert the [QRCODE] tag where you want the QR code to appear on the card.
+3. Create a menu item using the QRCODE Scanner menu item type.
+4. On your mobile device, log in to the site with an account that has the **Manage Subscriptions** permission.
+5. Open the menu item you created in step 3.
 
-When your user bring their member card to you, you can can scan QRCODE in the member card. It will show subscription status of that member (pending, active, expired).
+Scan the QR code on the member's card to see their subscription status, such as pending, active, or expired.
 
 ## Customize the membership status message
 
-When you scan the QR CODE, Membership Pro will show a message show you the subscription status of the member. The message is controlled by the following language items, and you can go to Membership Pro -> Translation to find and change it:
+Membership Pro displays a subscription status message when you scan the QR code. To customize the message, go to Membership Pro -> Translation and edit the relevant language item.
 
 - OSM_CHECK_MEMBERSHIP_STATUS_PENDING
 - OSM_CHECK_MEMBERSHIP_STATUS_ACTIVE
@@ -24,4 +24,4 @@ When you scan the QR CODE, Membership Pro will show a message show you the subsc
 - OSM_CHECK_MEMBERSHIP_STATUS_CANCELLED_PENDING
 - OSM_CHECK_MEMBERSHIP_STATUS_CANCELLED_REFUNDED
 
-You can use same tags with the tags supported in email message (**[FIRST_NAME]** , **[LAST_NAME]**, **[EMAIL]**, **[PLAN_TITLE]**, **[FROM_DATE]**, **[TO_DATE]**.... in the message to show more information you want for the subscription.
+You can include email message tags, such as **[FIRST_NAME]**, **[LAST_NAME]**, **[EMAIL]**, **[PLAN_TITLE]**, **[FROM_DATE]**, and **[TO_DATE]**, to display more subscription information.

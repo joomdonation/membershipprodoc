@@ -7,7 +7,7 @@ published: true
 media_order: membershippro-user-coupons.png
 ---
 
-This plugin can be used to display coupon codes assigned to the current user in his User Profile page. This is useful in case you assign coupon code to individual user and want to have it show in the user's profile so that user knows about the available coupon code for his account.
+This plugin displays coupon codes assigned to a user on their User Profile page, so they can see which codes are available to their account.
 
 Go to System -> Plugins, find and enable **Membership Pro - User's Coupons** plugin to use it. The plugin have the following parameters allow you to control show/hide certain columns on the page:
 

@@ -2,7 +2,7 @@
 title: 'Content - Membership Plans'
 ---
 
-This plugin allows you to display list of subscription plans you want in a Joomla article(or on any page which implement Joomla content plugin like in K2 item)
+This plugin displays selected subscription plans in a Joomla article or on another page that supports Joomla content plugins, such as a K2 item.
 
 If you want to use this feature, please follow the instructions below:
 

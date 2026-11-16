@@ -2,7 +2,7 @@
 title: 'Modify Subscription Duration'
 ---
 
-Sometime, you might want to offer different subscription lenth options for the same subscription plan. For example, you create a **3 Months** subscription plan but want to allow your subscribers to choose other options such as 6 Months, 9 Months.. then they subscribe for that plan. To do that, you can use **Modify Subscription Duration** feature of custom field which is supported from version 2.7.0
+Sometimes, you might want to offer different subscription length options for the same subscription plan. For example, you create a **3 Months** subscription plan but want to allow your subscribers to choose other options such as 6 Months, 9 Months.. then they sign up for that plan. To do that, you can use **Modify Subscription Duration** feature of custom field which is supported starting with version 2.7.0
 
 Go to Membership Pro => Custom Fields, create a new custom field with below important settings:
 

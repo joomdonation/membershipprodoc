@@ -4,11 +4,11 @@ published: true
 media_order: scheduled-task-calculate-subscriber-coordinates.png
 ---
 
-This scheduled task is used to calculate coordinates of subscriptions base on the address data of that subscription record, store the coordinates for the subscription so that members can be displayed on a map. You need to use this scheduled task if you want to display members on a map, see **[Display Members List](/frontend-items/display-members-list)** for more information and have subscription records created before enabling map on the menu item parameters.
+This scheduled task is used to calculate coordinates of subscriptions based on the address data of that subscription record, store the coordinates for the subscription so that members can be displayed on a map. You need to use this scheduled task if you want to display members on a map, see **[Display Members List](/frontend-items/display-members-list)** for more information and have subscription records created before enabling map on the menu item parameters.
 
-1. Go to **System -> Plugins**, make sure **Task - Membership Pro** plugin is enabled.
-2. Go to **System -> Scheduled Tasks**, press New button in the toolbar to create a new scheduled task for **Membership Pro - Calculate Subscribers Coordinates** task type.
-3. Setup all required parameters, save it.
+1. Go to **System -> Plugins** and make sure the **Task - Membership Pro** plugin is enabled.
+2. Go to **System -> Scheduled Tasks** and click New in the toolbar. Select the **Membership Pro - Calculate Subscribers Coordinates** task type.
+3. Configure the required parameters and save the task.
 
 Please note that this scheduled task is only used to calculate coordinates of subscriptions created before the scheduled task is created. For new subscriptions, it will calculate automatically by Membership Pro when the subscription created (by enabling Calculate Coordinates parameter in **System - Membership Pro** plugin. So once the task created, you just need to leave it to run for few days to calculate coordinates for existing subscriptions, and then you can disable it.
 

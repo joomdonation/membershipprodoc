@@ -3,11 +3,11 @@ title: 'Renew Options'
 media_order: renew-options.png
 ---
 
-If you enable renewal for the subscription plan, subscribers can renew their membership to be remain as an active subscriber in the system:
-1. If you don't setup any renew options, when subscribers renew their membership for the plan, he will have to pay the same price with the price of the subscription plan and their membership will be extended X days / Weeks / Months / Years (with X is subscritption length of the plan)
-2. If you setup renew options, subscribers can choose the best renew option they want to renew their membership. Each renew option will have different price and will extend subscribers membership to a certain date (less time, less price, more time, more price). For example, if you have a subscription plan with subscription length 3 months and price 60$, you can create different renew options like that to give more renew options to your subscribers:
-* Renew membership for 1 month, the price will be 20$
-* Renew membership for 3 months, the price will be 55$ (the pricec is abit less to ecourage subscribers renew longer)
-* Renew membership for 4 months, the price will be 72$... and so on
+If you enable renewals for a subscription plan, subscribers can renew their membership to remain active.
+1. If you don't configure renewal options, subscribers pay the plan price to renew. Their subscription is extended by the plan's subscription length, specified in days, weeks, months, or years.
+2. If you configure renewal options, subscribers can choose a price and duration when they renew. Shorter periods can cost less, and longer periods can cost more. For example, for a three-month plan priced at $60, you could offer these renewal options.
+* Renew for one month at $20.
+* Renew for three months at $55. The discount encourages longer renewals.
+* Renew for four months at $72.
 
 ![renew-options](renew-options.png "renew-options")

@@ -12,7 +12,7 @@ When you purchase the payment plugin, you will receive a zip file called **os_os
 
 ## Configuration
 
-1. Login to Rapyd dashboar, access to Developer menu from left sidebar [https://dashboard.rapyd.net/developers/api-control](https://dashboard.rapyd.net/developers/api-control). Get Access Key, Secret Key of your Rapyd account and enter it into payment plugin parameters.
+1. Log in to Rapyd dashboar, access to Developer menu from left sidebar [https://dashboard.rapyd.net/developers/api-control](https://dashboard.rapyd.net/developers/api-control). Get Access Key, Secret Key of your Rapyd account and enter it into payment plugin parameters.
 
 ![rapyd_creds](rapyd_creds.png "rapyd_creds")
 

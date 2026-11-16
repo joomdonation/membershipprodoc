@@ -3,11 +3,11 @@ title: 'Subscription Form'
 media_order: onetime_subscription_form.png
 ---
 
-**Subscription Form** page displays subscription form to allow users to enter the requested information, process payment to subscribe for a specific subscription plan. Users can reach this Subscription Form by clicking on Sign Up button from plans list, plan details page or from menu item.
+The **Subscription Form** page lets users enter their details and complete payment to sign up for a specific plan. They can open the form by clicking Sign Up in the plans list or on the plan details page, or by opening a menu item.
 
-If you want users to access to this page from menu item, create a menu item to link to **Subscription Form** menu option of **Membership Pro**. Beside common Joomla menu items parameters, these menu options support the following parameters specific to Membership Pro:
+If you want users to access this page from menu item, create a menu item to link to **Subscription Form** menu option of **Membership Pro**. Beside common Joomla menu items parameters, these menu options support the following parameters specific to Membership Pro:
 
-- **Select Plan**: Choose the plan you want users to subscribe for when they click on this menu item. You need to choose a valid/published plan for this parameter.
+- **Select Plan**: Choose the plan you want users to sign up for when they click on this menu item. You need to choose a valid/published plan for this parameter.
 ![Subscription Form](onetime_subscription_form.png)
 
 ## Customize Subscription Form

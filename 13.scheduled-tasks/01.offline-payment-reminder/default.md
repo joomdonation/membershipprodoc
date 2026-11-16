@@ -3,11 +3,11 @@ title: 'Offline Payment Reminder'
 media_order: task-offline-payment-reminders.png
 ---
 
-If you enable [**Offline Payment**](/basic-setup/payment-plugins/offline-payment) plugin to allow users to make payment for their subscriptions using Offline Payment method, you can use use this scheduled task to send emails to subscribers to remind them to make payment for their subscriptions if payment is not received after certain number of days:
+If you enable [**Offline Payment**](/basic-setup/payment-plugins/offline-payment) plugin to allow users to make a payment for their subscriptions using Offline Payment method, you can use use this scheduled task to send emails to subscribers to remind them to make a payment for their subscriptions if payment is not received after certain number of days:
 
-1. Go to **System -> Plugins**, make sure **Task - Membership Pro** plugin is enabled.
-2. Go to **System -> Scheduled Tasks**, press New button in the toolbar to create a new scheduled task for **Membership Pro - Offline Payment Reminder** task type.
-3. Setup all required parameters, save it.
+1. Go to **System -> Plugins** and make sure the **Task - Membership Pro** plugin is enabled.
+2. Go to **System -> Scheduled Tasks** and click New in the toolbar. Select the **Membership Pro - Offline Payment Reminder** task type.
+3. Configure the required parameters and save the task.
 
 ![task-offline-payment-reminders](task-offline-payment-reminders.png "task-offline-payment-reminders")
 

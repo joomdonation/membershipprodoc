@@ -11,7 +11,7 @@ media_order: offline-recurring-invoice.png
 ## When you need to use this plugin
 This plugin can be used if you:
 - Have recurring subscription plans on your site
-- You allow subscribers to use offline payment method to subscribe for these recurring subscription plans
+- You allow subscribers to use offline payment method to sign up for these recurring subscription plans
 
 ## How does it work
 When this plugin is enabled, it will be run every 6 hours. Each time the plugin runs, it will find offline subscription records which will be expired in the next 10 days (Number of days can be configured in plugin parameter) and:

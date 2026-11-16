@@ -4,9 +4,9 @@ visible: true
 media_order: worldpay_md5.png
 ---
 
-If you are using Worldpay payment plugin, you will need to make some changes in the settings of your Worldpay account. The steps are:
+To use the Worldpay payment plugin, make the following changes in your Worldpay account.
 
-1. Login to merchant account at worldpay, edit the installation, in the Payment Response URL textbox, enter **YOUR_SITE_URL/index.php?option=com_osmembership&task=payment_confirm&payment_method=os_worldpay&notify=1**, for example, **https://joomdonation.com/index.php?option=com_osmembership&task=payment_confirm&payment_method=os_worldpay&notify=1**
+1. Log in to merchant account at worldpay, edit the installation, in the Payment Response URL textbox, enter **YOUR_SITE_URL/index.php?option=com_osmembership&task=payment_confirm&payment_method=os_worldpay&notify=1**, for example, **https://joomdonation.com/index.php?option=com_osmembership&task=payment_confirm&payment_method=os_worldpay&notify=1**
 2. Check on **Payment Response enabled** checkbox
 
 

@@ -6,7 +6,7 @@ taxonomy:
 media_order: membershippro-php-script.png
 ---
 
-If you want to execute **PHP code** when a subscription is being created, become active (when payment complete), become expired or become updated, you can use **Membership Pro - PHP Script** plugin
+Use **Membership Pro - PHP Script** to run **PHP code** when a subscription is created, becomes active after payment, expires, or is updated.
 
 1. Go to **System** -> **Plugins**, find and enable the plugin **Membership Pro - PHP Script**
 2. Now, when you add/edit a subscription plan, you will see a new tab called **PHP Script Settings**. You can enter the PHP code you want to run:

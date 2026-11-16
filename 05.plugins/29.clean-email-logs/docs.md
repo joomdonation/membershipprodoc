@@ -6,7 +6,7 @@ taxonomy:
 media_order: clean_email_logs.png
 ---
 
->>> This plugin was removed from version 4.2.1. Please use **[Membership Pro - Clean Emails Log](/scheduled-tasks/clean-emails-log)** scheduled task instead.
+>>> This plugin was removed starting with version 4.2.1. Please use **[Membership Pro - Clean Emails Log](/scheduled-tasks/clean-emails-log)** scheduled task instead.
 
 
 This plugin deletes emails older than certain Number Days (by default 90 days) from Emails Log. It is useful if you enable Log Emails option in Membership Pro.

@@ -3,10 +3,10 @@ title: Report
 media_order: report.png
 ---
 
-By default, when subscribe renew a subscription, Membership Pro will create a new subscription record for that renewal. That mean one user can have multiple subscription records for same plan and that makes it difficult for you to know when he subscribed for the plan and when will his subscription expired
+Membership Pro creates a new subscription record for each renewal. A subscriber can have several records for the same plan, which can make it harder to find their start and expiration dates.
 
-To address that limitation, you can access to Membership Pro -> Report option. When you access to that page, for each user, you will only see one record and it is clearly display his current subscription (Pending/Active/Expired), when the subscription started and when will it be expired
+Go to Membership Pro -> Report to see one record per user. It shows their current subscription status (Pending/Active/Expired), start date, and expiration date.
 
-You can also export that report data by clicking on **Export** button in the toolbar, too.
+Click **Export** in the toolbar to export the report.
 
 ![report](report.png "report")

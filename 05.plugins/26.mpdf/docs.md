@@ -6,14 +6,14 @@ taxonomy:
         - docs
 ---
 
-By default, Membership Pro uses TCPDF library to generate PDF (invoices, member cards). While it is good, does not have good support for css and good documentation, so we decided to implement a new plugin called **Membership Pro - MPDF** to address these limitations. If you want to use it:
+By default, Membership Pro uses TCPDF to generate PDF invoices and membership cards. The **Membership Pro - MPDF** plugin provides an alternative with better CSS support and documentation. Follow these steps to use it.
 
 - If you use **Joomla 3 or Joomla 4**, please download the plugin at [https://joomdonation.com/downloads/plg_osmembership_mpdf.zip](https://joomdonation.com/downloads/plg_osmembership_mpdf.zip)
 - If you use **Joomla 5**, **Joomla 6**, [https://joomdonation.com/downloads/plg_osmembership_mpdf_joomla5.zip](https://joomdonation.com/downloads/plg_osmembership_mpdf_joomla5.zip)
 
 2.  Go to Extensions -> Manage, install the downloaded plugin
 3.  Go to Extensions -> Plugins, find and publish **Membership Pro - MPDF** plugin
-4. Access to Membership Pro , then **Tools -> Download MPDF Fonts** to download fonts required for MPDF library to work. These fonts have large size, so we could not ship with Membership Pro package by default.
+4. Access to Membership Pro, then **Tools -> Download MPDF Fonts** to download fonts required for MPDF library to work. These fonts have large size, so we could not ship with Membership Pro package by default.
 5. The best thing about MPDF is that it supports css very well (see [https://mpdf.github.io/css-stylesheets/introduction.html](https://mpdf.github.io/css-stylesheets/introduction.html) for full documentation), so you should enter necessary css code to improve the layout of the generated PDF file. There are two way to enter css code for PDF:
 
 ## Use PDF CSS config option

@@ -3,7 +3,7 @@ title: 'Conditional Text'
 media_order: 'sms_reminder_plugin_settings.png,plug_membershiprosms_nexmo.zip,plug_membershiprosms_twilio.zip,sms_reminder_settings.png'
 ---
 
-From version 2.23.0, Membership Pro support conditional text in invoice and messages. That mean it allows you to show text depend on certain value. You can use any any tags in the condition. For example:
+Starting with version 2.23.0, Membership Pro can show text in invoices and messages when a tag meets a condition. You can use any supported tag in the condition.
 
 {mpShowText [FIRST_NAME]=Tuan}This text will be shown if data entered into first_name field is Tuan{/mpShowText}
 
@@ -19,7 +19,7 @@ From version 2.23.0, Membership Pro support conditional text in invoice and mess
 
 {mpShowText [ACT]=subscribe}This text will be shown if the subscription is a new subscription{/mpShowText}
 
-Of if you want to have text on multi-lines:
+You can also put the text on multiple lines.
 
 {mpShowText [FIRST_NAME]=Tuan}
 This text will be shown if data entered into first_name field is Tuan
@@ -49,7 +49,7 @@ This text will be shown if the subscription is a upgrade subscription
 This text will be shown if the subscription is a new subscription
 {/mpShowText}
 
-You can use any tags in the condition (same with how you use tags in emails message). The tag will be replaced with it's value before comparing with the value in the condition. If the condition matches, the text will be displayed. If the condition false, text won't be displayed.
+Use the same tags you use in email messages. Membership Pro substitutes the tag value before evaluating the condition. It displays the text only when the condition is met.
 
 Supported operators: **>**, **<**, **=**, **~**, **@** :
 

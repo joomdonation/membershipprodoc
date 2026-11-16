@@ -4,12 +4,12 @@ published: true
 media_order: 'com_aec2membershippro.zip,os_osm_paypal.zip,plug_system_aec2osmembership.zip'
 ---
 
-AEC was a popular Membership extension for Joomla. For some reasons, the author of that extension discountinued the development, shut-down his website, so I decided to develop a migration script to allow migrating data from AEC to Membership Pro. The following data will be migrated:
+AEC was a popular Membership extension for Joomla. For some reasons, the author of that extension discontinued the development, shut-down his website, so I decided to develop a migration script to allow migrating data from AEC to Membership Pro. The following data will be migrated:
 1. Categories
 2. Plans
 3. Subscriptions
 
-Further more, if you use recurring subscription in **AEC**, these recurring subscriptions will still work well in **Membership Pro** (when PayPal notify **AEC** about the recurring payment, there will be a plugin routing this notification into Membership Pro and Membership Pro will extend the related recurring subscription)
+Furthermore, if you use recurring subscription in **AEC**, these recurring subscriptions will still work well in **Membership Pro** (when PayPal notify **AEC** about the recurring payment, there will be a plugin routing this notification into Membership Pro and Membership Pro will extend the related recurring subscription)
 
 If you want to migrate from AEC into Membership Pro, please follow the instructions below:
 
@@ -21,4 +21,4 @@ If you want to migrate from AEC into Membership Pro, please follow the instructi
 4. If your AEC setup has recurring subscriptions, you need to do the additional steps below:
 * Go to Extensions -> Manager, install and publish this plugin **plug_system_aec2osmembership.zip**, you can get the plugin here [plug_system_aec2osmembership.zip](plug_system_aec2osmembership.zip)
 
-Congratulations! You are done. All the important data in AEC was successfully migrated to Membership Pro and you can now turn disable AEC extension on your Joomla site.
+Congratulations! You are done. All the important data in AEC was successfuly migrated to Membership Pro and you can now turn disable AEC extension on your Joomla site.

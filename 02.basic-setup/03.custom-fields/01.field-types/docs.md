@@ -5,7 +5,7 @@ taxonomy:
         - docs
 ---
 
-**Membership Pro** support the following custom field types:
+**Membership Pro** supports the following custom field types.
 1. **Text**  
 2. **URL**
 3. **Email**
@@ -34,4 +34,4 @@ taxonomy:
 
 
 
->>>>> In case you don't have country field in the form but still have state field, the state field will get list of states from Default Country which you select in Membership Pro
+>>>>> In case you don't have country field in the form but still have state field, the state field will get a list of states from Default Country which you select in Membership Pro

@@ -4,13 +4,13 @@ published: true
 media_order: scheduled-task-trigger-active-event.png
 ---
 
-This scheduled task is used to trigger  **onMembershipActive** event for subscriptions which has **Subscription Start Date** is a future date. It is needed if you create membership plans with **Subscription Start Date Option** set to **Fixed Date** or **Determine By Customer** by selecting a date from a Date custom field. See **[Advanced Subscription Start Date](/basic-setup/plans/advanced-subscription-start-date)** for more information.
+This task triggers **onMembershipActive** for subscriptions with a future **Subscription Start Date**. Use it for plans whose **Subscription Start Date Option** is set to **Fixed Date**, or to **Determine By Customer** if the customer selects the start date from a Date custom field. See **[Advanced Subscription Start Date](/basic-setup/plans/advanced-subscription-start-date)** for more information.
 
-This should be used to replace the **System - Membership Pro Trigger Active Event** plugin. Please disable that plugin if you use this scheduled task.
+If you use this task, disable the **System - Membership Pro Trigger Active Event** plugin.
 
-1. Go to **System -> Plugins**, make sure **Task - Membership Pro** plugin is enabled.
-2. Go to **System -> Scheduled Tasks**, press New button in the toolbar to create a new scheduled task for **Membership Pro - Trigger Active Event** task type.
-3. Setup all required parameters, save it.
+1. Go to **System -> Plugins** and make sure the **Task - Membership Pro** plugin is enabled.
+2. Go to **System -> Scheduled Tasks** and click New in the toolbar. Select the **Membership Pro - Trigger Active Event** task type.
+3. Configure the required parameters and save the task.
 
 
 ## Task Basic Fields

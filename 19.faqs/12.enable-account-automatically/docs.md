@@ -2,7 +2,7 @@
 title: 'Enable Account Automatically'
 ---
 
-If you want to have user account activated automatically for active subscription, please follow instructions below to set it up:
+Follow these steps to activate user accounts automatically for active subscriptions.
 
 1. Go to **Membership Pro** -> **Configuration**, set:
 
@@ -11,5 +11,5 @@ If you want to have user account activated automatically for active subscription
 
 2. Go to Users -> Manage, click on Options button in the toolbar, set **New User Account Activation** config option to **Self**
 
-With that setup, when users subscribe for your plan and make payment, their user account will be created and enabled automatically (they won't have to activate their user account manually - before they can login- anymore)
+With that setup, when users sign up for your plan and make payment, their user account will be created and enabled automatically (they won't have to activate their user account manually - before they can login- anymore)
 

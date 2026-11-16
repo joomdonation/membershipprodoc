@@ -3,11 +3,11 @@ title: 'Conflict With Helix Template Framework'
 published: true
 ---
 
-If you are using a template built base on Helix Template Framework from JoomShaper, you might get some issues when using Membership Pro on frontend of Joomla 4 websites. Below are details and solution:
+If you are using a template built with Helix Template Framework from JoomShaper, you might get some issues when using Membership Pro on frontend of Joomla 4 websites. Below are details and solution:
 
 1. Toolbar Buttons for frontend management do not work
 
-- I reported to them few months ago and provided a temp solution https://github.com/JoomShaper/helix-ultimate/issues/243#issuecomment-976231375 . Sadly, until now, they still haven't fixed it yet
+- I reported to them few months ago and provided a temp solution https://github.com/JoomShaper/helix-ultimate/issues/243#issuecomment-976231375. Sadly, until now, they still haven't fixed it yet
 
 2. Edit a subscription record from frontend does not work
 

@@ -7,7 +7,7 @@ published: true
 media_order: user-files.png
 ---
 
-This plugin gives administrator a simple way to upload files for individual user and that user can download these files from his user profile. To use this feature:
+This plugin lets administrators upload files for a specific user. The user can download those files from their user profile.
 
 - Find and enable **Membership Pro - User Files** plugin. 
 

@@ -10,7 +10,7 @@ Subscribers are the users sign up for subscription plans in your system. A subsc
 
 Subscribers management page will give you list unique subscribers in your system. For each subscriber in the list, you can see what plans he signed up for, when it is started and when it will be expired, his membership id....
 
-To access to Subscribers management page, there are 2 different ways:
+To open Subscribers management page, there are 2 different ways:
 
 1. Access to Membership Pro Dashboard, then click on **Subscribers** icon
 2. On any pages in Membership Pro, access to **Subscriptions -> Subscribers**

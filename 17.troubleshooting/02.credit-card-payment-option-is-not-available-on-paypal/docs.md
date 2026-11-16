@@ -2,10 +2,10 @@
 title: 'Credit-card payment option is not available on PayPal'
 ---
 
-Sometime, you might find that your customers were not able to pay with their credit card when they are being redirected to PayPay. You might think that it causes by Membership Pro. However, it is actually all handled by PayPal and out of our control, we can only redirect customers to PayPal with correct payment amount, all the process happens on PayPal website is handled by PayPal and we won't have any control over it.
+Sometimes, you might find that your customers were not able to pay with their credit card when they are being redirected to PayPal. You might think that it causes by Membership Pro. However, it is actually all handled by PayPal and out of our control, we can only redirect customers to PayPal with correct payment amount, all the process happens on PayPal website is handled by PayPal and we won't have any control over it.
 
 ## Conditions to have credit card option available
-It's related to how your Account is setup.
+It's related to how your Account is set up.
 
 * Your account must be either Premier or Business.
 * PayPal Account Optional is turned on - this enables non PP Members to pay by Credit Card
@@ -15,7 +15,7 @@ It's related to how your Account is setup.
 * Credit card registered - (not required but a good idea)
 
 To turn on the PayPal Account Optional feature:
-Login to your PayPal Account, select "Edit Profile", under "Selling Preferences", select "Website Payment Preferences", scroll down to "PayPal Account Optional".
+Log in to your PayPal Account, select "Edit Profile", under "Selling Preferences", select "Website Payment Preferences", scroll down to "PayPal Account Optional".
 
 ## There are specific reasons the Credit Card Option may not be available.
 * You are using the wrong email address, an unverified email address or Business ID for your "business" variable value.

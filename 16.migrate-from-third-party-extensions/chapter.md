@@ -3,4 +3,7 @@ title: 'Migrate From Third Party Extensions'
 published: true
 ---
 
-This section guide you how to migrate data from third party extensions to Membership Pro. Currently, we have migration script to allow migrating data from **Akeeba Subscriptions** and **AEC** (Account Expiration Control) into Membership Pro
+Use the migration tools to move membership data from **AEC** (Account Expiration Control) or **Akeeba Subscriptions** to Membership Pro.
+
+- [Migrate from AEC to Membership Pro](/migrate-from-third-party-extensions/migrate-from-aec-to-membership-pro)
+- [Migrate from Akeeba Subscription To Membership Pro](/migrate-from-third-party-extensions/migrate-from-akeeba-subscription-to-membership-pro)

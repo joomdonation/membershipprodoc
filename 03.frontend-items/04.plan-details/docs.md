@@ -3,7 +3,7 @@ title: 'Plan Details'
 media_order: plan_details.png
 ---
 
-**Plan Details** page displays details information of a subscription plan. Users can access to plan details page from plans list page or from a menu item. From this page, users can see plan information (subscription length, pricing, description....), click on Sign Up button to subscribe for this plan.
+The **Plan Details** page shows a plan's subscription length, pricing, description, and other details. Users can open it from the plans list or a menu item and click Sign Up to subscribe.
 
 ![Plan Details](plan_details.png)
 

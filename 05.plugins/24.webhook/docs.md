@@ -7,7 +7,7 @@ taxonomy:
 published: true
 ---
 
-This plugin gives you a way to send subscription data to an external URL via a POST request when a subscription record created, become active or become expired. The external system can then uses that data in the way it wants.
+This plugin sends subscription data to an external URL in a POST request when a subscription is created, becomes active, or expires. The receiving system can then process that data.
 
 If you want to use this feature, find the plugin **Membership Pro - Webhook**, configure necessary parameters and enable it.
 
@@ -81,4 +81,4 @@ When enabled, the plugin will send many data related to that configured URL in a
 - category
 
 ### Event Data
-- event: **onAfterStoreSubscription** , **onMembershipActive**, **onMembershipExpire**. Base on data of this field, the external system will know on what event the data is sent to them.
+- event: **onAfterStoreSubscription**, **onMembershipActive**, **onMembershipExpire**. Base on data of this field, the external system will know on what event the data is sent to them.

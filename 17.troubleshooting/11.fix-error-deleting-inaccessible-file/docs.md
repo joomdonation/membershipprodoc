@@ -3,7 +3,7 @@ title: 'Fix Error Deleting Inaccessible File'
 visible: true
 ---
 
-Sometime, when you update Membership Pro extension, you will receive an error like below and cause update error
+Sometimes, when you update Membership Pro extension, you will receive an error like below and cause update error
 
 > Joomla\Filesystem\File::delete: Failed deleting inaccessible file autoload.php
 

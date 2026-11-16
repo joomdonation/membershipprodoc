@@ -2,7 +2,7 @@
 title: 'Manage Subscriptions'
 ---
 
-Membership Pro allows you to manage subscriptions from frontend of your site. Users with proper permission can see list of subscriptions, create new subscriptions record, renew a subscritpion, change status of subscription, delete subscription records, export subscriptions... like in the backend.
+Membership Pro lets authorized users manage subscriptions from the frontend. As in the backend, they can view, create, renew, delete, and export subscription records or change their status.
 
 To allow managing susbcriptions from frontend:
 

@@ -4,11 +4,11 @@ media_order: scheduled-task-update-subscription-status.png
 published: true
 ---
 
-This scheduled task is used to update status of subscriptions to expired when current date passes their expiration date (and grace period). This should be used to replace the [System - Membership Pro Update Subscribers Status plugin](/plugins/update-subscribers-status); disable that plugin if you use this scheduled task
+This task marks subscriptions as expired after their expiration date and grace period have passed. If you use this task, disable the [System - Membership Pro Update Subscribers Status plugin](/plugins/update-subscribers-status).
 
-1. Go to **System -> Plugins**, make sure **Task - Membership Pro** plugin is enabled.
-2. Go to **System -> Scheduled Tasks**, press New button in the toolbar to create a new scheduled task for **Membership Pro - Update Subscriptions Status** task type.
-3. Setup all required parameters, save it.
+1. Go to **System -> Plugins** and make sure the **Task - Membership Pro** plugin is enabled.
+2. Go to **System -> Scheduled Tasks** and click New in the toolbar. Select the **Membership Pro - Update Subscriptions Status** task type.
+3. Configure the required parameters and save the task.
 
 
 ## Task Basic Fields

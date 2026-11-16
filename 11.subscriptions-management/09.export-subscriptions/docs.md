@@ -3,7 +3,7 @@ title: 'Export Subscriptions'
 media_order: export-subscriptions.png
 ---
 
-Membership Pro allow you to export subscriptions of one or all subscription plans to Excel/PDF. On Subscriptions Management screen, you can press one of the export buttons in **Export** button group in the toolbar to export subscriptions from one selected plan or from all plans. Note that, before pressing **Export Subscriptions** button, you can filter subscriptions data you want and only subscriptions meet the filters will be exported:
+Membership Pro allows you to export subscriptions of one or all subscription plans to Excel/PDF. On Subscriptions Management screen, you can press one of the export buttons in **Export** button group in the toolbar to export subscriptions from one selected plan or from all plans. Note that, before pressing **Export Subscriptions** button, you can filter subscriptions data you want and only subscriptions meet the filters will be exported:
 
 - If you only want to export subscriptions from one plan, select that plan from Plans filter dropdown
 - If you only want to export subscriptions with certain Status (Pending/Active/Expired...), you can choose that status from Status filter dropdown

@@ -6,7 +6,7 @@ taxonomy:
         - docs
 ---
 
-This plugin allows you to display Events Booking Registration History of a subscriber in his Membership Pro user profile. This is useful in case you are using Membership Pro and Events Booking together on the same site
+If you use Membership Pro and Events Booking on the same site, this plugin displays a subscriber's Events Booking registration history in their Membership Pro user profile.
 
 To use this plugin, go to **System -> Plugins**, find and publish **Membership Pro - Events Booking Registration History** plugin. Now, when subscriber access to his Membership Pro user profile, he will see his Events Booking Registration History on a new tab on profile
 

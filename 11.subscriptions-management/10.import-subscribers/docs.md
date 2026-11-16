@@ -5,7 +5,7 @@ taxonomy:
         - docs
 ---
 
-When you first setup Membership Pro to your site, you might have a list of existing subscribers which you want to import into the system. That usually happens in case you have to migrate subscribers from a different membership extensions or from different system to Membership Pro. In this case, you can use **Import Subscribers from CSV file** feature of Membership Pro to import. You can see detailed instruction at [http://joomdonation.com/forum/membership-pro/23141-new-feature-import-subscribers-from-csv-file.html](http://joomdonation.com/forum/membership-pro/23141-new-feature-import-subscribers-from-csv-file.html)
+When you first set up Membership Pro to your site, you might have a list of existing subscribers which you want to import into the system. That usually happens in case you have to migrate subscribers from a different membership extensions or from different system to Membership Pro. In this case, you can use **Import Subscribers from CSV file** feature of Membership Pro to import. You can see detailed instruction at [http://joomdonation.com/forum/membership-pro/23141-new-feature-import-subscribers-from-csv-file.html](http://joomdonation.com/forum/membership-pro/23141-new-feature-import-subscribers-from-csv-file.html)
 
 1. Each system / site can have a different set of custom fields. So the CSV File format can be different. The sample I mentioned on forum is just a generic format. To get the CSV File for your site, please access to **Subscriptions => CSV Import Template** to download sample csv file corresponding to the setup on your site
 2. The date in csv file (in **payment_date**, **from_date**, **to_date** columns) must be in **YYYY-MM-DD** format.

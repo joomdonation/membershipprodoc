@@ -6,24 +6,24 @@ taxonomy:
 media_order: joomla-groups-integration.png
 ---
 
-This is a common usage in **Membership Pro**. Usually, you will want that when users sign up for a subscription plan, they will be assigned to the **Joomla user group(s)** you want so that you can use Joomla core ACL to give them permissions to perform some actions or access to restricted resources on your site (of course, these resources are not available for public and normal registered users). Please follow the steps below to setup it if you want to have this feature:
-1. Login to back-end of your site as a super admin account.
-2. Access to Users -> Groups, Create a new Joomla group on your site, maybe calling that group as **Subscriber**. This group should be child group of **Registered** group
-3. Go to **System -> Plugins**, find and enable the **Membership Pro - Joomla Groups plugin** plugin
+You can assign subscribers to selected **Joomla user group(s)** when they sign up for a plan in **Membership Pro**. Joomla's access control then lets you grant those groups permissions or access to resources reserved for subscribers. Follow these steps to enable the integration.
+1. Log in to the backend of your site with a super administrator account.
+2. Go to Users -> Groups and create a Joomla user group, for example **Subscriber**. Make it a child of **Registered**.
+3. Go to **System -> Plugins** and enable **Membership Pro - Joomla Groups plugin**.
 
-Now, when you add/edit a subscription plan, you will see a new tab called **Joomla Groups Settings**. On this tab, there are two sections:
+When you create or edit a plan, open the **Joomla Groups Settings** tab. It has two sections.
 
 ### When subscription active
-* **Assign to Joomla Groups**: Choose the Joomla user group(s) you want subscribers will be assigned to when they sign up for this subscription plan. For example, in this case, you can choose **Subscriber** group which you just created.
-* **Remove from Joomla Groups**: Choose the Joomla user group(s) you want subscribers will be removed from when they sign up for this subscription plan. Usually, you don't need to choose any user groups(s) here unless in **When subscription expired** section, you choose to assign expired subscribers to certain user group (like **Expired Members**) and if you do so, you should choose to remove them from that **Expired Members** when they subscribe for this plan.
+* **Assign to Joomla Groups**: Choose the groups to add subscribers to when they sign up for this plan. For example, select the **Subscriber** group you just created.
+* **Remove from Joomla Groups**: Choose the groups to remove subscribers from when they sign up for this plan. You can usually leave this field blank. If you assign expired subscribers to a group such as **Expired Members** under **When subscription expired**, select **Expired Members** here so they are removed when they sign up again.
 
 ### When subscription expired
 
-* **Remove from Joomla Groups**: Choose the Joomla user group(s) which you want subscribers of this plan will be removed from when their subscription for this plan is expired. Usually, it should be the same with the groups you selected in **Assign to Joomla Groups** setting under **When subscription active** section. For example, in this case, you can choose **Subscriber** user group.
-* **Assign to Joomla Groups**: Choose the Joomla user group(s) you want subscribers will be assigned to their subscription for this plan is expired. Usually, you don't need to choose any user groups(s) here unless you want to assign expired subscribers to **Expired Members** user group for example for managing purpose.
+* **Remove from Joomla Groups**: Choose the groups to remove subscribers from when this subscription expires. Usually, use the same groups you selected in **Assign to Joomla Groups** under **When subscription active**, such as **Subscriber**.
+* **Assign to Joomla Groups**: Choose the groups to add subscribers to when this subscription expires. You can usually leave this field blank. To track expired subscribers in a group, select a group such as **Expired Members**.
 
-With the above setup, when subscribers sign up to this subscription plan, they will be assigned to **Subscriber** user group and they can access to the resources which you give to **Subscriber** user group. When their subscription for this plan is expired, they will be removed from **Subscriber** group, thus they cannot access to these resources anymore (unless they renew their membership).
+With this setup, users join the **Subscriber** group when they sign up and can access its resources. When the subscription expires, they leave the **Subscriber** group and lose access until they renew.
 
-If you want to restrict access to resources based on Joomla core ACL (you need to understand how Joomla ACL works), this will be a very powerful and flexible plugin.
+Use this plugin to restrict resources through Joomla's access control. You need to know how to configure Joomla ACL.
 
 ![joomla-groups-integration](joomla-groups-integration.png "joomla-groups-integration")

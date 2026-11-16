@@ -3,7 +3,7 @@ title: 'Recurring Settings'
 media_order: recurring_settings.png
 ---
 
-Membership Pro supports recurring subscription feature. When subscribers sign up for a recurring subscription plan, the subscription will continue being renewed automatically until he cancel it or number of renewals reach the **Number Payments** setup by admin for the subscription plan. 
+Membership Pro supports recurring subscriptions. When someone signs up for a recurring subscription plan, it renews automatically until they cancel it or the number of renewals reaches the **Number Payments** value the administrator set for the plan.
 
 ![recurring_settings](recurring_settings.png "recurring_settings")
 

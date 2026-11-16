@@ -3,7 +3,7 @@ title: 'Membership Card'
 media_order: 'download_member_cards.png,membercard_settings.png'
 ---
 
-**Membership Pro** alllows you setup the system to allow subscribers to download PDF membership card from their user profile when they subscribe for any of your subscription plans which has Member Card enabled.
+**Membership Pro** can let subscribers download a PDF membership card from their user profile when they sign up for a plan with Member Card enabled.
 
 ## Enable Member Card
 
